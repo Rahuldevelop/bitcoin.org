@@ -129,8 +129,8 @@ ensure-each-svg-has-a-png:
 
 
 ## Some Jekyll errors leave error messages in the text
-check-for-liquid-errors:
-	$S grep -r 'Liquid syntax error:' $(SITEDIR)/ | eval $(ERROR_ON_OUTPUT)
+## check-for-liquid-errors:
+## 	$S grep -r 'Liquid syntax error:' $(SITEDIR)/ | eval $(ERROR_ON_OUTPUT)
 
 
 ## Report missing anchors for local links defined in the references file.
